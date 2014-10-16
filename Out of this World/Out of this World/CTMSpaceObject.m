@@ -1,13 +1,13 @@
 //
-//  CTMSpaceImageViewController.h
+//  CTMSpaceObject.m
 //  Out of this World
 //
 //  Created by Charles McQuilkin on 10/15/14.
 //  Copyright (c) 2014 Charles McQuilkin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CTMSpaceObject.h"
 
-@interface CTMSpaceImageViewController : UIViewController
+@implementation CTMSpaceObject
 
 @end

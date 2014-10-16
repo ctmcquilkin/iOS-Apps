@@ -1,5 +1,5 @@
 //
-//  CTMSpaceImageViewController.h
+//  CTMOuterSpaceTableViewController.h
 //  Out of this World
 //
 //  Created by Charles McQuilkin on 10/15/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CTMSpaceImageViewController : UIViewController
+@interface CTMOuterSpaceTableViewController : UITableViewController
 
 @end
