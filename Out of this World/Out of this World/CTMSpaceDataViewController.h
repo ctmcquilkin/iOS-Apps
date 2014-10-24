@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTMSpaceObject.h"
 
-@interface CTMSpaceDataViewController : UIViewController
+@interface CTMSpaceDataViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) CTMSpaceObject *spaceObject;
 
 @end

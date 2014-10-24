@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTMSpaceObject.h"
 
-@interface CTMSpaceImageViewController : UIViewController
+/* The angle brakets mean that the class now conforms to the UIScrollView Protocol. In short we get access to the methods defined in the UIScrollViewDelegate like viewForZoomingInScrollView */
+@interface CTMSpaceImageViewController : UIViewController <UIScrollViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) UIImageView *imageView;
+@property (strong, nonatomic) CTMSpaceObject *spaceObject;
 
 @end
