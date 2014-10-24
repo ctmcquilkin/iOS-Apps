@@ -14,6 +14,10 @@
 		A13E982419F7F67000E2B5F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13E982319F7F67000E2B5F4 /* Images.xcassets */; };
 		A13E982719F7F67000E2B5F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13E982519F7F67000E2B5F4 /* LaunchScreen.xib */; };
 		A13E983319F7F67000E2B5F4 /* OverdueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E983219F7F67000E2B5F4 /* OverdueTests.m */; };
+		A13E983E19F7F6C900E2B5F4 /* CTMAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E983D19F7F6C900E2B5F4 /* CTMAddTaskViewController.m */; };
+		A13E984119F7F6DF00E2B5F4 /* CTMDetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E984019F7F6DF00E2B5F4 /* CTMDetailTaskViewController.m */; };
+		A13E984A19F7F76600E2B5F4 /* CTMEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E984919F7F76600E2B5F4 /* CTMEditTaskViewController.m */; };
+		A1F8272819F9391300ABB071 /* CTMTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8272719F9391300ABB071 /* CTMTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,15 @@
 		A13E982C19F7F67000E2B5F4 /* OverdueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverdueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13E983119F7F67000E2B5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A13E983219F7F67000E2B5F4 /* OverdueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverdueTests.m; sourceTree = "<group>"; };
+		A13E983C19F7F6C900E2B5F4 /* CTMAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMAddTaskViewController.h; sourceTree = "<group>"; };
+		A13E983D19F7F6C900E2B5F4 /* CTMAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMAddTaskViewController.m; sourceTree = "<group>"; };
+		A13E983F19F7F6DF00E2B5F4 /* CTMDetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMDetailTaskViewController.h; sourceTree = "<group>"; };
+		A13E984019F7F6DF00E2B5F4 /* CTMDetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMDetailTaskViewController.m; sourceTree = "<group>"; };
+		A13E984819F7F76600E2B5F4 /* CTMEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTMEditTaskViewController.h; path = ../CTMEditTaskViewController.h; sourceTree = "<group>"; };
+		A13E984919F7F76600E2B5F4 /* CTMEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTMEditTaskViewController.m; path = ../CTMEditTaskViewController.m; sourceTree = "<group>"; };
+		A1C6076519F826FE00DE20F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A1F8272619F9391300ABB071 /* CTMTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMTask.h; sourceTree = "<group>"; };
+		A1F8272719F9391300ABB071 /* CTMTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +99,13 @@
 				A13E981D19F7F67000E2B5F4 /* ViewController.h */,
 				A13E981E19F7F67000E2B5F4 /* ViewController.m */,
 				A13E982019F7F67000E2B5F4 /* Main.storyboard */,
+				A13E983C19F7F6C900E2B5F4 /* CTMAddTaskViewController.h */,
+				A13E983D19F7F6C900E2B5F4 /* CTMAddTaskViewController.m */,
+				A13E983F19F7F6DF00E2B5F4 /* CTMDetailTaskViewController.h */,
+				A13E984019F7F6DF00E2B5F4 /* CTMDetailTaskViewController.m */,
+				A13E984819F7F76600E2B5F4 /* CTMEditTaskViewController.h */,
+				A13E984919F7F76600E2B5F4 /* CTMEditTaskViewController.m */,
+				A1F8272519F938CF00ABB071 /* Model */,
 				A13E982319F7F67000E2B5F4 /* Images.xcassets */,
 				A13E982519F7F67000E2B5F4 /* LaunchScreen.xib */,
 				A13E981619F7F67000E2B5F4 /* Supporting Files */,
@@ -98,6 +118,7 @@
 			children = (
 				A13E981719F7F67000E2B5F4 /* Info.plist */,
 				A13E981819F7F67000E2B5F4 /* main.m */,
+				A1C6076519F826FE00DE20F4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +138,15 @@
 				A13E983119F7F67000E2B5F4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F8272519F938CF00ABB071 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8272619F9391300ABB071 /* CTMTask.h */,
+				A1F8272719F9391300ABB071 /* CTMTask.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13E984119F7F6DF00E2B5F4 /* CTMDetailTaskViewController.m in Sources */,
+				A13E983E19F7F6C900E2B5F4 /* CTMAddTaskViewController.m in Sources */,
 				A13E981F19F7F67000E2B5F4 /* ViewController.m in Sources */,
+				A1F8272819F9391300ABB071 /* CTMTask.m in Sources */,
 				A13E981C19F7F67000E2B5F4 /* AppDelegate.m in Sources */,
+				A13E984A19F7F76600E2B5F4 /* CTMEditTaskViewController.m in Sources */,
 				A13E981919F7F67000E2B5F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +320,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -326,6 +361,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -343,6 +379,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = PrefixHeader.pch;
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = PrefixHeader.pch;
 				INFOPLIST_FILE = Overdue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +392,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = PrefixHeader.pch;
 				INFOPLIST_FILE = Overdue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +453,7 @@
 				A13E983819F7F67000E2B5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13E983919F7F67000E2B5F4 /* Build configuration list for PBXNativeTarget "OverdueTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +462,7 @@
 				A13E983B19F7F67000E2B5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

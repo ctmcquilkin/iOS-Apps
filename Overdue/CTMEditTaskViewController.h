@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CTMEditTaskViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UITextView *textView;
+@property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
+- (IBAction)saveBarButtonItemPressed:(UIBarButtonItem *)sender;
 
 @end

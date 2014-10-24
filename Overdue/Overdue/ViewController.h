@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTMAddTaskViewController.h"
+#import "CTMDetailTaskViewController.h"
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController <CTMAddTaskViewControllerDelegate, UITableViewDataSource, UITableViewDelegate>
+
+@property (strong, nonatomic) NSMutableArray *taskObjects;
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)reorderBarButtonItemPressed:(UIBarButtonItem *)sender;
+- (IBAction)addTaskBarButtonItemPressed:(UIBarButtonItem *)sender;
 
 @end
 
