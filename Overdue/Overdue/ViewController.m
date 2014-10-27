@@ -63,13 +63,20 @@
         NSIndexPath *path = sender;
         CTMTask *taskObject = self.taskObjects[path.row];
         detailTaskViewController.task = taskObject;
+        detailTaskViewController.delegate = self;
     }
 }
 
-- (IBAction)reorderBarButtonItemPressed:(UIBarButtonItem *)sender
+-(IBAction)reorderBarButtonItemPressed:(UIBarButtonItem *)sender
 {
-    [self performSegueWithIdentifier:@"toDetailTaskViewControllerSegue" sender:nil];
+    if (self.tableView.editing == YES)[self.tableView setEditing:NO animated:YES];
+    else [self.tableView setEditing:YES animated:YES];
 }
+
+//- (IBAction)reorderBarButtonItemPressed:(UIBarButtonItem *)sender
+//{
+//    [self performSegueWithIdentifier:@"toDetailTaskViewControllerSegue" sender:nil];
+//}
 
 - (IBAction)addTaskBarButtonItemPressed:(UIBarButtonItem *)sender
 {
@@ -99,6 +106,13 @@
 -(void)didCancel
 {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma mark - CTMDetailTaskViewControllerDelegate
+-(void)updateTask
+{
+    [self saveTasks];
+    [self.tableView reloadData];
 }
 
 #pragma mark - Helper Methods
@@ -145,6 +159,16 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
     
     [self.tableView reloadData];
+}
+
+-(void)saveTasks
+{
+    NSMutableArray *taskObjectsAsPropertyLists = [[NSMutableArray alloc] init];
+    for (int x = 0; x < [self.taskObjects count]; x++) {
+        [taskObjectsAsPropertyLists addObject:[self taskObjectAsPropertyList:self.taskObjects[x]]];
+    }
+    [[NSUserDefaults standardUserDefaults] setObject:taskObjectsAsPropertyLists forKey:TASK_OBJECTS_KEY];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 #pragma UITableViewDataSource
@@ -214,6 +238,18 @@
 -(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
     [self performSegueWithIdentifier:@"toDetailTaskViewControllerSegue" sender:indexPath];
+}
+
+-(BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+-(void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
+{
+    CTMTask *taskObject = self.taskObjects[sourceIndexPath.row];
+    [self.taskObjects removeObjectAtIndex:sourceIndexPath.row];
+    [self.taskObjects insertObject:taskObject atIndex:destinationIndexPath.row];
+    [self saveTasks];
 }
 
 @end

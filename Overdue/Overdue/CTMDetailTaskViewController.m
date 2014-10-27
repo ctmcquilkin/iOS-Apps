@@ -27,6 +27,15 @@
     self.dateLabel.text = stringFromDate;
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.destinationViewController isKindOfClass:[CTMEditTaskViewController class]]){
+        CTMEditTaskViewController *editTaskViewController = segue.destinationViewController;
+        editTaskViewController.task = self.task;
+        editTaskViewController.delegate = self;
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -42,6 +51,20 @@
 }
 */
 
-- (IBAction)editBarButtonItemPressed:(UIBarButtonItem *)sender {
+- (IBAction)editBarButtonItemPressed:(UIBarButtonItem *)sender
+{
+    [self performSegueWithIdentifier:@"toEditTaskViewControllerSegue" sender:nil];
+}
+-(void)didUpdateTask
+{
+    self.titleLabel.text = self.task.title;
+    self.detailLabel.text = self.task.descriptionText;
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    NSString *stringFromDate = [formatter stringFromDate:self.task.date];
+    self.dateLabel.text = stringFromDate;
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    //[self.delegate updateTask];
 }
 @end

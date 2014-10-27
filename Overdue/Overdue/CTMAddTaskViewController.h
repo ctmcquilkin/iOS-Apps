@@ -16,7 +16,7 @@
 
 @end
 
-@interface CTMAddTaskViewController : UIViewController
+@interface CTMAddTaskViewController : UIViewController <UITextViewDelegate, UITextFieldDelegate>
 
 @property (weak, nonatomic) id <CTMAddTaskViewControllerDelegate> delegate;
 

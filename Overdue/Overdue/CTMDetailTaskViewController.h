@@ -8,10 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "CTMTask.h"
+#import "CTMEditTaskViewController.h"
 
-@interface CTMDetailTaskViewController : UIViewController
+@protocol CTMDetailTaskViewControllerDelegate <NSObject>
+
+-(void)updateTask;
+
+@end
+
+@interface CTMDetailTaskViewController : UIViewController <CTMEditTaskViewControllerDelegate>
 
 @property (strong, nonatomic) CTMTask *task;
+@property (weak, nonatomic) id <CTMEditTaskViewControllerDelegate> delegate;
 
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *dateLabel;
