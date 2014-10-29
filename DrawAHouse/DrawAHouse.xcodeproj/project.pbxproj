@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1C9D32B1A015305002850E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D32A1A015305002850E3 /* main.m */; };
+		A1C9D32E1A015305002850E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D32D1A015305002850E3 /* AppDelegate.m */; };
+		A1C9D3311A015305002850E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D3301A015305002850E3 /* ViewController.m */; };
+		A1C9D3341A015305002850E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C9D3321A015305002850E3 /* Main.storyboard */; };
+		A1C9D3361A015305002850E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C9D3351A015305002850E3 /* Images.xcassets */; };
+		A1C9D3391A015305002850E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1C9D3371A015305002850E3 /* LaunchScreen.xib */; };
+		A1C9D3451A015305002850E3 /* DrawAHouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D3441A015305002850E3 /* DrawAHouseTests.m */; };
+		A1C9D3501A01543C002850E3 /* HouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D34F1A01543C002850E3 /* HouseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C9D33F1A015305002850E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C9D31D1A015304002850E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C9D3241A015304002850E3;
+			remoteInfo = DrawAHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1C9D3251A015305002850E3 /* DrawAHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawAHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C9D3291A015305002850E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C9D32A1A015305002850E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1C9D32C1A015305002850E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1C9D32D1A015305002850E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1C9D32F1A015305002850E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1C9D3301A015305002850E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1C9D3331A015305002850E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1C9D3351A015305002850E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1C9D3381A015305002850E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1C9D33E1A015305002850E3 /* DrawAHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawAHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C9D3431A015305002850E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C9D3441A015305002850E3 /* DrawAHouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawAHouseTests.m; sourceTree = "<group>"; };
+		A1C9D34E1A01543C002850E3 /* HouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseView.h; sourceTree = "<group>"; };
+		A1C9D34F1A01543C002850E3 /* HouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C9D3221A015304002850E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C9D33B1A015305002850E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C9D31C1A015304002850E3 = {
+			isa = PBXGroup;
+			children = (
+				A1C9D3271A015305002850E3 /* DrawAHouse */,
+				A1C9D3411A015305002850E3 /* DrawAHouseTests */,
+				A1C9D3261A015305002850E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C9D3261A015305002850E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9D3251A015305002850E3 /* DrawAHouse.app */,
+				A1C9D33E1A015305002850E3 /* DrawAHouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C9D3271A015305002850E3 /* DrawAHouse */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9D32C1A015305002850E3 /* AppDelegate.h */,
+				A1C9D32D1A015305002850E3 /* AppDelegate.m */,
+				A1C9D32F1A015305002850E3 /* ViewController.h */,
+				A1C9D3301A015305002850E3 /* ViewController.m */,
+				A1C9D3321A015305002850E3 /* Main.storyboard */,
+				A1C9D34E1A01543C002850E3 /* HouseView.h */,
+				A1C9D34F1A01543C002850E3 /* HouseView.m */,
+				A1C9D3351A015305002850E3 /* Images.xcassets */,
+				A1C9D3371A015305002850E3 /* LaunchScreen.xib */,
+				A1C9D3281A015305002850E3 /* Supporting Files */,
+			);
+			path = DrawAHouse;
+			sourceTree = "<group>";
+		};
+		A1C9D3281A015305002850E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9D3291A015305002850E3 /* Info.plist */,
+				A1C9D32A1A015305002850E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C9D3411A015305002850E3 /* DrawAHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9D3441A015305002850E3 /* DrawAHouseTests.m */,
+				A1C9D3421A015305002850E3 /* Supporting Files */,
+			);
+			path = DrawAHouseTests;
+			sourceTree = "<group>";
+		};
+		A1C9D3421A015305002850E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9D3431A015305002850E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C9D3241A015304002850E3 /* DrawAHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C9D3481A015305002850E3 /* Build configuration list for PBXNativeTarget "DrawAHouse" */;
+			buildPhases = (
+				A1C9D3211A015304002850E3 /* Sources */,
+				A1C9D3221A015304002850E3 /* Frameworks */,
+				A1C9D3231A015304002850E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawAHouse;
+			productName = DrawAHouse;
+			productReference = A1C9D3251A015305002850E3 /* DrawAHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1C9D33D1A015305002850E3 /* DrawAHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C9D34B1A015305002850E3 /* Build configuration list for PBXNativeTarget "DrawAHouseTests" */;
+			buildPhases = (
+				A1C9D33A1A015305002850E3 /* Sources */,
+				A1C9D33B1A015305002850E3 /* Frameworks */,
+				A1C9D33C1A015305002850E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C9D3401A015305002850E3 /* PBXTargetDependency */,
+			);
+			name = DrawAHouseTests;
+			productName = DrawAHouseTests;
+			productReference = A1C9D33E1A015305002850E3 /* DrawAHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C9D31D1A015304002850E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Charles McQuilkin";
+				TargetAttributes = {
+					A1C9D3241A015304002850E3 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A1C9D33D1A015305002850E3 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A1C9D3241A015304002850E3;
+					};
+				};
+			};
+			buildConfigurationList = A1C9D3201A015304002850E3 /* Build configuration list for PBXProject "DrawAHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C9D31C1A015304002850E3;
+			productRefGroup = A1C9D3261A015305002850E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C9D3241A015304002850E3 /* DrawAHouse */,
+				A1C9D33D1A015305002850E3 /* DrawAHouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C9D3231A015304002850E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C9D3341A015305002850E3 /* Main.storyboard in Resources */,
+				A1C9D3391A015305002850E3 /* LaunchScreen.xib in Resources */,
+				A1C9D3361A015305002850E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C9D33C1A015305002850E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C9D3211A015304002850E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C9D3311A015305002850E3 /* ViewController.m in Sources */,
+				A1C9D3501A01543C002850E3 /* HouseView.m in Sources */,
+				A1C9D32E1A015305002850E3 /* AppDelegate.m in Sources */,
+				A1C9D32B1A015305002850E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C9D33A1A015305002850E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C9D3451A015305002850E3 /* DrawAHouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1C9D3401A015305002850E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C9D3241A015304002850E3 /* DrawAHouse */;
+			targetProxy = A1C9D33F1A015305002850E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1C9D3321A015305002850E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C9D3331A015305002850E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C9D3371A015305002850E3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C9D3381A015305002850E3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C9D3461A015305002850E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1C9D3471A015305002850E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C9D3491A015305002850E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawAHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1C9D34A1A015305002850E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawAHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1C9D34C1A015305002850E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawAHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawAHouse.app/DrawAHouse";
+			};
+			name = Debug;
+		};
+		A1C9D34D1A015305002850E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawAHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawAHouse.app/DrawAHouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C9D3201A015304002850E3 /* Build configuration list for PBXProject "DrawAHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C9D3461A015305002850E3 /* Debug */,
+				A1C9D3471A015305002850E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C9D3481A015305002850E3 /* Build configuration list for PBXNativeTarget "DrawAHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C9D3491A015305002850E3 /* Debug */,
+				A1C9D34A1A015305002850E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1C9D34B1A015305002850E3 /* Build configuration list for PBXNativeTarget "DrawAHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C9D34C1A015305002850E3 /* Debug */,
+				A1C9D34D1A015305002850E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C9D31D1A015304002850E3 /* Project object */;
+}
