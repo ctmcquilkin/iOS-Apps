@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A19CC7B91A03C7DE00B4E945 /* CTMHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A19CC7B81A03C7DE00B4E945 /* CTMHouseView.m */; };
 		A1C9D32B1A015305002850E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D32A1A015305002850E3 /* main.m */; };
 		A1C9D32E1A015305002850E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D32D1A015305002850E3 /* AppDelegate.m */; };
 		A1C9D3311A015305002850E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C9D3301A015305002850E3 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A19CC7B71A03C7DE00B4E945 /* CTMHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMHouseView.h; sourceTree = "<group>"; };
+		A19CC7B81A03C7DE00B4E945 /* CTMHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMHouseView.m; sourceTree = "<group>"; };
 		A1C9D3251A015305002850E3 /* DrawAHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawAHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C9D3291A015305002850E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C9D32A1A015305002850E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				A1C9D32F1A015305002850E3 /* ViewController.h */,
 				A1C9D3301A015305002850E3 /* ViewController.m */,
 				A1C9D3321A015305002850E3 /* Main.storyboard */,
+				A19CC7B71A03C7DE00B4E945 /* CTMHouseView.h */,
+				A19CC7B81A03C7DE00B4E945 /* CTMHouseView.m */,
 				A1C9D34E1A01543C002850E3 /* HouseView.h */,
 				A1C9D34F1A01543C002850E3 /* HouseView.m */,
 				A1C9D3351A015305002850E3 /* Images.xcassets */,
@@ -227,6 +232,7 @@
 				A1C9D3311A015305002850E3 /* ViewController.m in Sources */,
 				A1C9D3501A01543C002850E3 /* HouseView.m in Sources */,
 				A1C9D32E1A015305002850E3 /* AppDelegate.m in Sources */,
+				A19CC7B91A03C7DE00B4E945 /* CTMHouseView.m in Sources */,
 				A1C9D32B1A015305002850E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				A1C9D34A1A015305002850E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1C9D34B1A015305002850E3 /* Build configuration list for PBXNativeTarget "DrawAHouseTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				A1C9D34D1A015305002850E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
