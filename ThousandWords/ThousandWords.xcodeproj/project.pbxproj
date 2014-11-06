@@ -15,6 +15,7 @@
 		A16BF0971A0BCB4E00BC33AB /* ThousandWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A16BF0961A0BCB4E00BC33AB /* ThousandWordsTests.m */; };
 		A16BF0A11A0BCD7B00BC33AB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16BF0A01A0BCD7B00BC33AB /* Storyboard.storyboard */; };
 		A16BF0A41A0BCE4800BC33AB /* TWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16BF0A31A0BCE4800BC33AB /* TWTableViewController.m */; };
+		A16BF0A71A0BDB8800BC33AB /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = A16BF0A61A0BDB8800BC33AB /* Album.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A16BF0A01A0BCD7B00BC33AB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		A16BF0A21A0BCE4800BC33AB /* TWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTableViewController.h; sourceTree = "<group>"; };
 		A16BF0A31A0BCE4800BC33AB /* TWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTableViewController.m; sourceTree = "<group>"; };
+		A16BF0A51A0BDB8800BC33AB /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		A16BF0A61A0BDB8800BC33AB /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				A16BF0821A0BCB4E00BC33AB /* ViewController.m */,
 				A16BF0871A0BCB4E00BC33AB /* Images.xcassets */,
 				A16BF07E1A0BCB4E00BC33AB /* ThousandWords.xcdatamodeld */,
+				A16BF0A51A0BDB8800BC33AB /* Album.h */,
+				A16BF0A61A0BDB8800BC33AB /* Album.m */,
 				A16BF0771A0BCB4E00BC33AB /* Supporting Files */,
 			);
 			path = ThousandWords;
@@ -226,6 +231,7 @@
 				A16BF0801A0BCB4E00BC33AB /* ThousandWords.xcdatamodeld in Sources */,
 				A16BF0A41A0BCE4800BC33AB /* TWTableViewController.m in Sources */,
 				A16BF07D1A0BCB4E00BC33AB /* AppDelegate.m in Sources */,
+				A16BF0A71A0BDB8800BC33AB /* Album.m in Sources */,
 				A16BF0831A0BCB4E00BC33AB /* ViewController.m in Sources */,
 				A16BF07A1A0BCB4E00BC33AB /* main.m in Sources */,
 			);
