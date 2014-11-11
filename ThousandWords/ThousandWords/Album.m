@@ -11,7 +11,8 @@
 
 @implementation Album
 
-@dynamic name;
 @dynamic date;
+@dynamic name;
+@dynamic photos;
 
 @end

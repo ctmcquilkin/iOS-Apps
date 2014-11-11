@@ -7,6 +7,8 @@
 //
 
 #import "TWPhotoDetailViewController.h"
+#import "Photo.h"
+#import "TWFiltersCollectionViewController.h"
 
 @interface TWPhotoDetailViewController ()
 
@@ -19,10 +21,29 @@
     // Do any additional setup after loading the view.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    
+    self.imageView.image = self.photo.image;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"Filter Segue"]) {
+        if ([segue.destinationViewController isKindOfClass:[TWFiltersCollectionViewController class]]){
+            /* Set the targetViewController's photo property. The FiltersCollectionViewController will now have access to the photo object. */
+            TWFiltersCollectionViewController *targetViewController = segue.destinationViewController;
+            targetViewController.photo = self.photo;
+        }
+    }
+}
+
 
 /*
 #pragma mark - Navigation
@@ -34,4 +55,24 @@
 }
 */
 
+- (IBAction)addFilterButtonPressed:(UIButton *)sender
+{
+    
+}
+
+- (IBAction)deleteButtonPressed:(UIButton *)sender
+{
+    [[self.photo managedObjectContext] deleteObject:self.photo];
+    
+    //NSLog(@"%@ %@", self.photo, [self.photo managedObjectContext]);
+    NSError *error = nil;
+    
+    [[self.photo managedObjectContext] save:&error];
+    
+    if (error) {
+        NSLog(@"error");
+    }
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end
