@@ -23,6 +23,7 @@ extern NSString *const kCTMUserProfileBirthdayKey;
 extern NSString *const kCTMUserProfileRelationshipStatusKey;
 extern NSString *const kCTMUserProfileInterestedInKey;
 extern NSString *const kCTMUserProfilePictureURL;
+extern NSString *const kCTMUserProfileAgeKey;
 
 #pragma mark - Photo Class
 
