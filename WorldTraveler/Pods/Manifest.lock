@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (2.1.0):
+    - AFNetworking/NSURLConnection (= 2.1.0)
+    - AFNetworking/NSURLSession (= 2.1.0)
+    - AFNetworking/Reachability (= 2.1.0)
+    - AFNetworking/Security (= 2.1.0)
+    - AFNetworking/Serialization (= 2.1.0)
+    - AFNetworking/UIKit (= 2.1.0)
+  - AFNetworking/NSURLConnection (2.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.1.0):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.1.0)
+  - AFNetworking/Security (2.1.0)
+  - AFNetworking/Serialization (2.1.0)
+  - AFNetworking/UIKit (2.1.0):
+    - AFNetworking/NSURLConnection
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core (= 2.2)
+  - MagicalRecord/Core (2.2)
+  - MBProgressHUD (0.9)
+  - MMRecord (1.4.1):
+    - MMRecord/Core (= 1.4.1)
+  - MMRecord/Core (1.4.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.1.0)
+  - MagicalRecord (~> 2.2)
+  - MBProgressHUD (~> 0.8)
+  - MMRecord (~> 1.4.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 7c33510b46f994bc75b75c6e63c1d83414ca40f2
+  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  MMRecord: d97ae01093878067aff85dcbd90fb700605cc634
+
+COCOAPODS: 0.35.0
