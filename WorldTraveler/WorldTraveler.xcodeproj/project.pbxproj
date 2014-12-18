@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1AD8DED1A42312F0017507D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD8DEC1A42312F0017507D /* main.m */; };
-		A1AD8DF01A42312F0017507D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD8DEF1A42312F0017507D /* AppDelegate.m */; };
-		A1AD8DF31A42312F0017507D /* WorldTraveler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1AD8DF11A42312F0017507D /* WorldTraveler.xcdatamodeld */; };
-		A1AD8DF61A42312F0017507D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD8DF51A42312F0017507D /* ViewController.m */; };
-		A1AD8DF91A42312F0017507D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AD8DF71A42312F0017507D /* Main.storyboard */; };
-		A1AD8DFB1A42312F0017507D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AD8DFA1A42312F0017507D /* Images.xcassets */; };
-		A1AD8DFE1A42312F0017507D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1AD8DFC1A42312F0017507D /* LaunchScreen.xib */; };
-		A1AD8E0A1A4231300017507D /* WorldTravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD8E091A4231300017507D /* WorldTravelerTests.m */; };
+		A16D95181A43552E00C6DD96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A16D95171A43552E00C6DD96 /* main.m */; };
+		A16D951B1A43552E00C6DD96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A16D951A1A43552E00C6DD96 /* AppDelegate.m */; };
+		A16D951E1A43552E00C6DD96 /* WorldTraveler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A16D951C1A43552E00C6DD96 /* WorldTraveler.xcdatamodeld */; };
+		A16D95211A43552E00C6DD96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16D95201A43552E00C6DD96 /* ViewController.m */; };
+		A16D95241A43552E00C6DD96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16D95221A43552E00C6DD96 /* Main.storyboard */; };
+		A16D95261A43552E00C6DD96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16D95251A43552E00C6DD96 /* Images.xcassets */; };
+		A16D95291A43552E00C6DD96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16D95271A43552E00C6DD96 /* LaunchScreen.xib */; };
+		A16D95351A43552F00C6DD96 /* WorldTravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A16D95341A43552F00C6DD96 /* WorldTravelerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1AD8E041A4231300017507D /* PBXContainerItemProxy */ = {
+		A16D952F1A43552F00C6DD96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A1AD8DDF1A42312F0017507D /* Project object */;
+			containerPortal = A16D950A1A43552E00C6DD96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1AD8DE61A42312F0017507D;
+			remoteGlobalIDString = A16D95111A43552E00C6DD96;
 			remoteInfo = WorldTraveler;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A1AD8DE71A42312F0017507D /* WorldTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1AD8DEB1A42312F0017507D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1AD8DEC1A42312F0017507D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1AD8DEE1A42312F0017507D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A1AD8DEF1A42312F0017507D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1AD8DF21A42312F0017507D /* WorldTraveler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTraveler.xcdatamodel; sourceTree = "<group>"; };
-		A1AD8DF41A42312F0017507D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1AD8DF51A42312F0017507D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1AD8DF81A42312F0017507D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1AD8DFA1A42312F0017507D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A1AD8DFD1A42312F0017507D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A1AD8E031A4231300017507D /* WorldTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1AD8E081A4231300017507D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1AD8E091A4231300017507D /* WorldTravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTravelerTests.m; sourceTree = "<group>"; };
+		A16D95121A43552E00C6DD96 /* WorldTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16D95161A43552E00C6DD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16D95171A43552E00C6DD96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A16D95191A43552E00C6DD96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A16D951A1A43552E00C6DD96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A16D951D1A43552E00C6DD96 /* WorldTraveler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTraveler.xcdatamodel; sourceTree = "<group>"; };
+		A16D951F1A43552E00C6DD96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A16D95201A43552E00C6DD96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A16D95231A43552E00C6DD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A16D95251A43552E00C6DD96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A16D95281A43552E00C6DD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A16D952E1A43552F00C6DD96 /* WorldTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16D95331A43552F00C6DD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16D95341A43552F00C6DD96 /* WorldTravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTravelerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1AD8DE41A42312F0017507D /* Frameworks */ = {
+		A16D950F1A43552E00C6DD96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1AD8E001A4231300017507D /* Frameworks */ = {
+		A16D952B1A43552F00C6DD96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,62 +62,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1AD8DDE1A42312F0017507D = {
+		A16D95091A43552E00C6DD96 = {
 			isa = PBXGroup;
 			children = (
-				A1AD8DE91A42312F0017507D /* WorldTraveler */,
-				A1AD8E061A4231300017507D /* WorldTravelerTests */,
-				A1AD8DE81A42312F0017507D /* Products */,
+				A16D95141A43552E00C6DD96 /* WorldTraveler */,
+				A16D95311A43552F00C6DD96 /* WorldTravelerTests */,
+				A16D95131A43552E00C6DD96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1AD8DE81A42312F0017507D /* Products */ = {
+		A16D95131A43552E00C6DD96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1AD8DE71A42312F0017507D /* WorldTraveler.app */,
-				A1AD8E031A4231300017507D /* WorldTravelerTests.xctest */,
+				A16D95121A43552E00C6DD96 /* WorldTraveler.app */,
+				A16D952E1A43552F00C6DD96 /* WorldTravelerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1AD8DE91A42312F0017507D /* WorldTraveler */ = {
+		A16D95141A43552E00C6DD96 /* WorldTraveler */ = {
 			isa = PBXGroup;
 			children = (
-				A1AD8DEE1A42312F0017507D /* AppDelegate.h */,
-				A1AD8DEF1A42312F0017507D /* AppDelegate.m */,
-				A1AD8DF41A42312F0017507D /* ViewController.h */,
-				A1AD8DF51A42312F0017507D /* ViewController.m */,
-				A1AD8DF71A42312F0017507D /* Main.storyboard */,
-				A1AD8DFA1A42312F0017507D /* Images.xcassets */,
-				A1AD8DFC1A42312F0017507D /* LaunchScreen.xib */,
-				A1AD8DF11A42312F0017507D /* WorldTraveler.xcdatamodeld */,
-				A1AD8DEA1A42312F0017507D /* Supporting Files */,
+				A16D95191A43552E00C6DD96 /* AppDelegate.h */,
+				A16D951A1A43552E00C6DD96 /* AppDelegate.m */,
+				A16D951F1A43552E00C6DD96 /* ViewController.h */,
+				A16D95201A43552E00C6DD96 /* ViewController.m */,
+				A16D95221A43552E00C6DD96 /* Main.storyboard */,
+				A16D95251A43552E00C6DD96 /* Images.xcassets */,
+				A16D95271A43552E00C6DD96 /* LaunchScreen.xib */,
+				A16D951C1A43552E00C6DD96 /* WorldTraveler.xcdatamodeld */,
+				A16D95151A43552E00C6DD96 /* Supporting Files */,
 			);
 			path = WorldTraveler;
 			sourceTree = "<group>";
 		};
-		A1AD8DEA1A42312F0017507D /* Supporting Files */ = {
+		A16D95151A43552E00C6DD96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A1AD8DEB1A42312F0017507D /* Info.plist */,
-				A1AD8DEC1A42312F0017507D /* main.m */,
+				A16D95161A43552E00C6DD96 /* Info.plist */,
+				A16D95171A43552E00C6DD96 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A1AD8E061A4231300017507D /* WorldTravelerTests */ = {
+		A16D95311A43552F00C6DD96 /* WorldTravelerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A1AD8E091A4231300017507D /* WorldTravelerTests.m */,
-				A1AD8E071A4231300017507D /* Supporting Files */,
+				A16D95341A43552F00C6DD96 /* WorldTravelerTests.m */,
+				A16D95321A43552F00C6DD96 /* Supporting Files */,
 			);
 			path = WorldTravelerTests;
 			sourceTree = "<group>";
 		};
-		A1AD8E071A4231300017507D /* Supporting Files */ = {
+		A16D95321A43552F00C6DD96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A1AD8E081A4231300017507D /* Info.plist */,
+				A16D95331A43552F00C6DD96 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,13 +125,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1AD8DE61A42312F0017507D /* WorldTraveler */ = {
+		A16D95111A43552E00C6DD96 /* WorldTraveler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1AD8E0D1A4231300017507D /* Build configuration list for PBXNativeTarget "WorldTraveler" */;
+			buildConfigurationList = A16D95381A43552F00C6DD96 /* Build configuration list for PBXNativeTarget "WorldTraveler" */;
 			buildPhases = (
-				A1AD8DE31A42312F0017507D /* Sources */,
-				A1AD8DE41A42312F0017507D /* Frameworks */,
-				A1AD8DE51A42312F0017507D /* Resources */,
+				A16D950E1A43552E00C6DD96 /* Sources */,
+				A16D950F1A43552E00C6DD96 /* Frameworks */,
+				A16D95101A43552E00C6DD96 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -139,46 +139,46 @@
 			);
 			name = WorldTraveler;
 			productName = WorldTraveler;
-			productReference = A1AD8DE71A42312F0017507D /* WorldTraveler.app */;
+			productReference = A16D95121A43552E00C6DD96 /* WorldTraveler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1AD8E021A4231300017507D /* WorldTravelerTests */ = {
+		A16D952D1A43552F00C6DD96 /* WorldTravelerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1AD8E101A4231300017507D /* Build configuration list for PBXNativeTarget "WorldTravelerTests" */;
+			buildConfigurationList = A16D953B1A43552F00C6DD96 /* Build configuration list for PBXNativeTarget "WorldTravelerTests" */;
 			buildPhases = (
-				A1AD8DFF1A4231300017507D /* Sources */,
-				A1AD8E001A4231300017507D /* Frameworks */,
-				A1AD8E011A4231300017507D /* Resources */,
+				A16D952A1A43552F00C6DD96 /* Sources */,
+				A16D952B1A43552F00C6DD96 /* Frameworks */,
+				A16D952C1A43552F00C6DD96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1AD8E051A4231300017507D /* PBXTargetDependency */,
+				A16D95301A43552F00C6DD96 /* PBXTargetDependency */,
 			);
 			name = WorldTravelerTests;
 			productName = WorldTravelerTests;
-			productReference = A1AD8E031A4231300017507D /* WorldTravelerTests.xctest */;
+			productReference = A16D952E1A43552F00C6DD96 /* WorldTravelerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1AD8DDF1A42312F0017507D /* Project object */ = {
+		A16D950A1A43552E00C6DD96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Charles McQuilkin";
 				TargetAttributes = {
-					A1AD8DE61A42312F0017507D = {
+					A16D95111A43552E00C6DD96 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					A1AD8E021A4231300017507D = {
+					A16D952D1A43552F00C6DD96 = {
 						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = A1AD8DE61A42312F0017507D;
+						TestTargetID = A16D95111A43552E00C6DD96;
 					};
 				};
 			};
-			buildConfigurationList = A1AD8DE21A42312F0017507D /* Build configuration list for PBXProject "WorldTraveler" */;
+			buildConfigurationList = A16D950D1A43552E00C6DD96 /* Build configuration list for PBXProject "WorldTraveler" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,29 +186,29 @@
 				en,
 				Base,
 			);
-			mainGroup = A1AD8DDE1A42312F0017507D;
-			productRefGroup = A1AD8DE81A42312F0017507D /* Products */;
+			mainGroup = A16D95091A43552E00C6DD96;
+			productRefGroup = A16D95131A43552E00C6DD96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1AD8DE61A42312F0017507D /* WorldTraveler */,
-				A1AD8E021A4231300017507D /* WorldTravelerTests */,
+				A16D95111A43552E00C6DD96 /* WorldTraveler */,
+				A16D952D1A43552F00C6DD96 /* WorldTravelerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1AD8DE51A42312F0017507D /* Resources */ = {
+		A16D95101A43552E00C6DD96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1AD8DF91A42312F0017507D /* Main.storyboard in Resources */,
-				A1AD8DFE1A42312F0017507D /* LaunchScreen.xib in Resources */,
-				A1AD8DFB1A42312F0017507D /* Images.xcassets in Resources */,
+				A16D95241A43552E00C6DD96 /* Main.storyboard in Resources */,
+				A16D95291A43552E00C6DD96 /* LaunchScreen.xib in Resources */,
+				A16D95261A43552E00C6DD96 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1AD8E011A4231300017507D /* Resources */ = {
+		A16D952C1A43552F00C6DD96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,48 +218,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1AD8DE31A42312F0017507D /* Sources */ = {
+		A16D950E1A43552E00C6DD96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1AD8DF01A42312F0017507D /* AppDelegate.m in Sources */,
-				A1AD8DF31A42312F0017507D /* WorldTraveler.xcdatamodeld in Sources */,
-				A1AD8DF61A42312F0017507D /* ViewController.m in Sources */,
-				A1AD8DED1A42312F0017507D /* main.m in Sources */,
+				A16D951B1A43552E00C6DD96 /* AppDelegate.m in Sources */,
+				A16D951E1A43552E00C6DD96 /* WorldTraveler.xcdatamodeld in Sources */,
+				A16D95211A43552E00C6DD96 /* ViewController.m in Sources */,
+				A16D95181A43552E00C6DD96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1AD8DFF1A4231300017507D /* Sources */ = {
+		A16D952A1A43552F00C6DD96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1AD8E0A1A4231300017507D /* WorldTravelerTests.m in Sources */,
+				A16D95351A43552F00C6DD96 /* WorldTravelerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A1AD8E051A4231300017507D /* PBXTargetDependency */ = {
+		A16D95301A43552F00C6DD96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1AD8DE61A42312F0017507D /* WorldTraveler */;
-			targetProxy = A1AD8E041A4231300017507D /* PBXContainerItemProxy */;
+			target = A16D95111A43552E00C6DD96 /* WorldTraveler */;
+			targetProxy = A16D952F1A43552F00C6DD96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1AD8DF71A42312F0017507D /* Main.storyboard */ = {
+		A16D95221A43552E00C6DD96 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1AD8DF81A42312F0017507D /* Base */,
+				A16D95231A43552E00C6DD96 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A1AD8DFC1A42312F0017507D /* LaunchScreen.xib */ = {
+		A16D95271A43552E00C6DD96 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1AD8DFD1A42312F0017507D /* Base */,
+				A16D95281A43552E00C6DD96 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A1AD8E0B1A4231300017507D /* Debug */ = {
+		A16D95361A43552F00C6DD96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		A1AD8E0C1A4231300017507D /* Release */ = {
+		A16D95371A43552F00C6DD96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +343,7 @@
 			};
 			name = Release;
 		};
-		A1AD8E0E1A4231300017507D /* Debug */ = {
+		A16D95391A43552F00C6DD96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		A1AD8E0F1A4231300017507D /* Release */ = {
+		A16D953A1A43552F00C6DD96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -363,7 +363,7 @@
 			};
 			name = Release;
 		};
-		A1AD8E111A4231300017507D /* Debug */ = {
+		A16D953C1A43552F00C6DD96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		A1AD8E121A4231300017507D /* Release */ = {
+		A16D953D1A43552F00C6DD96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -400,45 +400,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1AD8DE21A42312F0017507D /* Build configuration list for PBXProject "WorldTraveler" */ = {
+		A16D950D1A43552E00C6DD96 /* Build configuration list for PBXProject "WorldTraveler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1AD8E0B1A4231300017507D /* Debug */,
-				A1AD8E0C1A4231300017507D /* Release */,
+				A16D95361A43552F00C6DD96 /* Debug */,
+				A16D95371A43552F00C6DD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1AD8E0D1A4231300017507D /* Build configuration list for PBXNativeTarget "WorldTraveler" */ = {
+		A16D95381A43552F00C6DD96 /* Build configuration list for PBXNativeTarget "WorldTraveler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1AD8E0E1A4231300017507D /* Debug */,
-				A1AD8E0F1A4231300017507D /* Release */,
+				A16D95391A43552F00C6DD96 /* Debug */,
+				A16D953A1A43552F00C6DD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A1AD8E101A4231300017507D /* Build configuration list for PBXNativeTarget "WorldTravelerTests" */ = {
+		A16D953B1A43552F00C6DD96 /* Build configuration list for PBXNativeTarget "WorldTravelerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1AD8E111A4231300017507D /* Debug */,
-				A1AD8E121A4231300017507D /* Release */,
+				A16D953C1A43552F00C6DD96 /* Debug */,
+				A16D953D1A43552F00C6DD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A1AD8DF11A42312F0017507D /* WorldTraveler.xcdatamodeld */ = {
+		A16D951C1A43552E00C6DD96 /* WorldTraveler.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A1AD8DF21A42312F0017507D /* WorldTraveler.xcdatamodel */,
+				A16D951D1A43552E00C6DD96 /* WorldTraveler.xcdatamodel */,
 			);
-			currentVersion = A1AD8DF21A42312F0017507D /* WorldTraveler.xcdatamodel */;
+			currentVersion = A16D951D1A43552E00C6DD96 /* WorldTraveler.xcdatamodel */;
 			path = WorldTraveler.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A1AD8DDF1A42312F0017507D /* Project object */;
+	rootObject = A16D950A1A43552E00C6DD96 /* Project object */;
 }

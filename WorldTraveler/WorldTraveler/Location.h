@@ -2,7 +2,7 @@
 //  Location.h
 //  WorldTraveler
 //
-//  Created by Charles McQuilkin on 12/17/14.
+//  Created by Charles McQuilkin on 12/18/14.
 //  Copyright (c) 2014 Charles McQuilkin. All rights reserved.
 //
 
@@ -17,8 +17,8 @@
 @property (nonatomic, retain) NSString * city;
 @property (nonatomic, retain) NSString * country;
 @property (nonatomic, retain) NSString * crossStreet;
-@property (nonatomic, retain) NSNumber * lng;
 @property (nonatomic, retain) NSNumber * lat;
+@property (nonatomic, retain) NSNumber * lng;
 @property (nonatomic, retain) NSString * postalCode;
 @property (nonatomic, retain) NSString * state;
 @property (nonatomic, retain) NSManagedObject *venue;
